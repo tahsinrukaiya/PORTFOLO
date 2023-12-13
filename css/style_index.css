@@ -101,6 +101,7 @@
     flex-direction: column;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
     transition: 0.3s ease-in-out;
+    cursor: pointer;
 }
 
 .container .card:hover {
@@ -176,8 +177,8 @@
 
 @media only screen and (max-width:853px) {
     .logo img {
-        width: 130px;
-        height: 110px;
+        width: 150px;
+        height: 140px;
     }
 
     .about {
@@ -185,12 +186,20 @@
     }
 
     .about .content img {
-        width: 230px;
+        width: 210px;
         height: 260px;
     }
 
     .text {
         margin-top: 20px;
+    }
+
+    .text h2 {
+        font-size: 18px;
+    }
+
+    .text p {
+        font-size: 15px;
     }
 
     .heading {

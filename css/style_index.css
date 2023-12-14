@@ -7,7 +7,7 @@
 
 .logo {
     text-align: center;
-    background-color: #EEE0C9;
+    background-color: #E9EDC9;
 }
 
 .logo img {
@@ -77,7 +77,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #EEE0C9;
+    background-color: #E9EDC9;
 }
 
 .container {
@@ -105,7 +105,7 @@
 }
 
 .container .card:hover {
-    height: 350px;
+    height: 400px;
     transition: 0.3s;
 }
 
@@ -135,6 +135,10 @@
     transition: 0.3s ease-in-out;
 }
 
+.cardContent p {
+    font-size: 15px;
+}
+
 .container .card:hover .cardContent {
     visibility: visible;
     opacity: 1;
@@ -146,6 +150,7 @@
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
+    padding-bottom: 5%;
 }
 
 .button_container a {
@@ -167,7 +172,7 @@
 }
 
 .footer {
-    padding-bottom: 20px;
+    padding-bottom: 5%;
     padding-top: 20px;
     text-align: center;
     font-size: 18px;

@@ -136,6 +136,10 @@
     transition: 0.3s ease-in-out;
 }
 
+.cardContent h2 {
+    font-size: 18px;
+}
+
 .cardContent p {
     font-size: 15px;
 }
